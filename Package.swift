@@ -15,8 +15,8 @@ import Foundation
 // All .library() products will be visible to customers in Xcode when they install our SDK into their app.
 // Therefore, it's important that we only expose modules that we want customers to use. Internal modules should not be included in this array.
 var products: [PackageDescription.Product] = [
-    .library(name: "DataPipelines", targets: ["CioDataPipelines"]),
-    .library(name: "MessagingPushAPN", targets: ["CioMessagingPushAPN"]),
+    .library(name: "DataPipelines", targets: ["CioDataPipelines", "CioDataPipelines2"]),
+    .library(name: "MessagingPushAPN", targets: ["CioMessagingPushAPN", "CioMessagingPushAPN2"]),
     .library(name: "MessagingPushFCM", targets: ["CioMessagingPushFCM"]),
     .library(name: "MessagingInApp", targets: ["CioMessagingInApp"])
 ]
@@ -87,6 +87,14 @@ let package = Package(
                 path: "Sources/DataPipeline", resources: [
                     .process("Resources/PrivacyInfo.xcprivacy"),
                 ]),
+
+        .target(name: "CioDataPipelines2",
+                dependencies: ["CioInternalCommon", "CioTrackingMigration",
+                    .product(name: "CioAnalytics", package: "CioAnalytics")],
+                path: "Sources/DataPipeline", resources: [
+                    .process("Resources/PrivacyInfo.xcprivacy"),
+                ]),
+
         .testTarget(name: "DataPipelineTests",
                     dependencies: ["CioDataPipelines", "SharedTests"],
                     path: "Tests/DataPipeline"),
@@ -98,10 +106,18 @@ let package = Package(
                 resources: [
                     .process("Resources/PrivacyInfo.xcprivacy"),
                 ]),
+
+        .target(name: "CioMessagingPushAPN2",
+                dependencies: ["CioMessagingPush"],
+                path: "Sources/MessagingPushAPN",
+                resources: [
+                    .process("Resources/PrivacyInfo.xcprivacy"),
+                ]),
+
         .testTarget(name: "MessagingPushAPNTests",
-                    dependencies: ["CioMessagingPushAPN", "SharedTests"],
-                    path: "Tests/MessagingPushAPN"),
-        // FCM 
+                dependencies: ["CioMessagingPushAPN", "SharedTests"],
+                path: "Tests/MessagingPushAPN"),
+        // FCM
         .target(name: "CioMessagingPushFCM",
                 dependencies: ["CioMessagingPush", .product(name: "FirebaseMessaging", package: "Firebase")],
                 path: "Sources/MessagingPushFCM",
