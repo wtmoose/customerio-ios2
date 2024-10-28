@@ -32,7 +32,7 @@ if (ProcessInfo.processInfo.environment["CI"] != nil) { // true if running on a 
 }
 
 let package = Package(
-    name: "Customer.io",
+    name: "Customer.io2",
     platforms: [
         .iOS(.v13)
     ],
