@@ -15,10 +15,10 @@ import Foundation
 // All .library() products will be visible to customers in Xcode when they install our SDK into their app.
 // Therefore, it's important that we only expose modules that we want customers to use. Internal modules should not be included in this array.
 var products: [PackageDescription.Product] = [
-    .library(name: "DataPipelines", targets: ["CioDataPipelines"]),
-    .library(name: "MessagingPushAPN", targets: ["CioMessagingPushAPN"]),
-    .library(name: "MessagingPushFCM", targets: ["CioMessagingPushFCM"]),
-    .library(name: "MessagingInApp", targets: ["CioMessagingInApp"])
+    .library(name: "DataPipelines2", targets: ["CioDataPipelines"]),
+    .library(name: "MessagingPushAPN2", targets: ["CioMessagingPushAPN"]),
+    .library(name: "MessagingPushFCM2", targets: ["CioMessagingPushFCM"]),
+    .library(name: "MessagingInApp2", targets: ["CioMessagingInApp"])
 ]
 
 // When we execute the automated test suite, we use tools to determine the code coverage of our tests. 
