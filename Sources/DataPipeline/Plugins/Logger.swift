@@ -1,4 +1,4 @@
-import CioAnalytics
+import CioAnalytics2
 import CioInternalCommon2
 
 /// Logger plugin for logging all requests sent to analytics

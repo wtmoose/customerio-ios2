@@ -1,4 +1,4 @@
-import CioAnalytics
+import CioAnalytics2
 import CioInternalCommon2
 import Foundation
 
@@ -6,9 +6,9 @@ import Foundation
 /// It is designed to reduce redundancy and enhance maintainability by funneling these operations through a single plugin.
 /// This plugin allows for decoupled modules to subscribe and react to these events.
 class DataPipelinePublishedEvents: EventPlugin {
-    var type: CioAnalytics.PluginType = .before
+    var type: CioAnalytics2.PluginType = .before
 
-    var analytics: CioAnalytics.Analytics?
+    var analytics: CioAnalytics2.Analytics?
     var eventBusHandler: EventBusHandler
 
     public required init(diGraph: DIGraphShared) {

@@ -46,7 +46,7 @@ let package = Package(
         
 
         // Make sure the version number is same for DataPipelines cocoapods.
-        .package(name: "CioAnalytics", path: "Submodules/CDPAnalytics"),
+        .package(name: "CioAnalytics2", path: "Submodules/CDPAnalytics"),
     ],
     targets: [ 
         // Common - Code used by multiple modules in the SDK project.
@@ -83,7 +83,7 @@ let package = Package(
         // Data Pipeline
         .target(name: "CioDataPipelines2",
                 dependencies: ["CioInternalCommon2", "CioTrackingMigration2", 
-                    .product(name: "CioAnalytics", package: "CioAnalytics")],
+                    .product(name: "CioAnalytics2", package: "CioAnalytics2")],
                 path: "Sources/DataPipeline", resources: [
                     .process("Resources/PrivacyInfo.xcprivacy"),
                 ]),

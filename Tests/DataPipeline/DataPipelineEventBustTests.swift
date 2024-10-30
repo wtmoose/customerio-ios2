@@ -1,4 +1,4 @@
-@testable import CioAnalytics
+@testable import CioAnalytics2
 @testable import CioDataPipelines2
 @testable import CioInternalCommon2
 import Foundation

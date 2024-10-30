@@ -1,4 +1,4 @@
-import CioAnalytics
+import CioAnalytics2
 import CioInternalCommon2
 
 /// Plugin class that update the context properties in the request payload
