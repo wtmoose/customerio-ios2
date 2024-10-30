@@ -1,4 +1,4 @@
-@testable import CioInternalCommon
+@testable import CioInternalCommon22
 @testable import CioMessagingPush
 import SharedTests
 

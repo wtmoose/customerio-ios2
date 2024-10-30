@@ -1,5 +1,5 @@
-import CioInternalCommon
-import CioMessagingPush
+import CioInternalCommon2
+import CioMessagingPush2
 import Foundation
 #if canImport(UserNotifications)
 import UserNotifications

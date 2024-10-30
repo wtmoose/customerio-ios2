@@ -1,6 +1,6 @@
-import CioDataPipelines
+import CioDataPipelines2
 import CioMessagingInApp
-import CioMessagingPushAPN
+import CioMessagingPushAPN2
 import UIKit
 
 @main

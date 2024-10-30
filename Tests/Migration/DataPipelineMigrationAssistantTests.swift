@@ -1,5 +1,5 @@
-@testable import CioInternalCommon
-@testable import CioTrackingMigration
+@testable import CioInternalCommon22
+@testable import CioTrackingMigration2
 import Foundation
 import SharedTests
 import XCTest

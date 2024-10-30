@@ -1,5 +1,5 @@
-@testable import CioInternalCommon
-@testable import CioMessagingInApp
+@testable import CioInternalCommon22
+@testable import CioMessagingInApp2
 import SharedTests
 
 /// Base class for unit testing within the module, extending `UnitTestBase` with setup and utilities

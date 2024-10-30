@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "Sources/Migration/**/*"
   spec.exclude_files = "Sources/**/*{.md}"
-  spec.module_name = "CioTrackingMigration" # the `import X` name when using SDK in Swift files
+  spec.module_name = "CioTrackingMigration2" # the `import X` name when using SDK in Swift files
 
   spec.dependency "CustomerIOCommon", "= #{spec.version.to_s}"
 end

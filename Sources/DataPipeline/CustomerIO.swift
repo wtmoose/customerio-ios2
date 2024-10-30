@@ -1,5 +1,5 @@
-import CioInternalCommon
-import CioTrackingMigration
+import CioInternalCommon2
+import CioTrackingMigration2
 
 public extension CustomerIO {
     /**

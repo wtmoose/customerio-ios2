@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon22
 import CioMessagingPush
 import Foundation
 import SharedTests

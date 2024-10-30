@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon22
 
 /// Mock of the EventBusHandler class, designed to mimic AutoMockable
 /// Once the class is generated using AutoMockable, it should seamlessly replace the current implementation without any issues
@@ -30,7 +30,7 @@ public class EventBusHandlerMock: EventBusHandler, Mock {
     public private(set) var addObserverCallsCount = 0
     public var addObserverCalled: Bool { addObserverCallsCount > 0 }
 
-    public func addObserver<E>(_ eventType: E.Type, action: @escaping (E) -> Void) where E: CioInternalCommon.EventRepresentable {
+    public func addObserver<E>(_ eventType: E.Type, action: @escaping (E) -> Void) where E: CioInternalCommon2.EventRepresentable {
         mockCalled = true
         addObserverCallsCount += 1
     }
@@ -38,7 +38,7 @@ public class EventBusHandlerMock: EventBusHandler, Mock {
     public private(set) var removeObserverCallsCount = 0
     public var removeObserverCalled: Bool { removeObserverCallsCount > 0 }
 
-    public func removeObserver<E>(for eventType: E.Type) where E: CioInternalCommon.EventRepresentable {
+    public func removeObserver<E>(for eventType: E.Type) where E: CioInternalCommon2.EventRepresentable {
         mockCalled = true
         removeObserverCallsCount += 1
     }
@@ -62,7 +62,7 @@ public class EventBusHandlerMock: EventBusHandler, Mock {
     public private(set) var removeFromStorageCallsCount = 0
     public var removeFromStorageCalled: Bool { removeFromStorageCallsCount > 0 }
 
-    public func removeFromStorage<E>(_ event: E) async where E: CioInternalCommon.EventRepresentable {
+    public func removeFromStorage<E>(_ event: E) async where E: CioInternalCommon2.EventRepresentable {
         mockCalled = true
         removeFromStorageCallsCount += 1
     }

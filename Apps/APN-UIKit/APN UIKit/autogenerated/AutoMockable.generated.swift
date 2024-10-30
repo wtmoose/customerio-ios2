@@ -9,7 +9,7 @@ import FoundationNetworking
 #if canImport(UserNotifications)
 import UserNotifications
 #endif
-import CioMessagingPushAPN
+import CioMessagingPushAPN2
 
 /**
  ######################################################

@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 
 // These URLs are for requesting CDP settings from the CDP API, and must align with server's CDP regional configuration.
 extension Region {

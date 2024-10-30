@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 #if canImport(FoundationNetworking)
 import FoundationNetworking
@@ -15,7 +15,7 @@ public class RichPushHttpClient: HttpClient {
         [cioApiSession, publicSession]
     }
 
-    public func request(_ params: CioInternalCommon.HttpRequestParams, onComplete: @escaping (Result<Data, CioInternalCommon.HttpRequestError>) -> Void) {
+    public func request(_ params: CioInternalCommon2.HttpRequestParams, onComplete: @escaping (Result<Data, CioInternalCommon2.HttpRequestError>) -> Void) {
         httpRequestRunner
             .request(
                 params: params,

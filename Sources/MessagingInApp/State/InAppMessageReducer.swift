@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 /// Returns a reducer function after wrapping it in a logging function.

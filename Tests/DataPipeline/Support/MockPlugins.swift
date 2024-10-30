@@ -1,5 +1,5 @@
 import CioAnalytics
-import CioDataPipelines
+import CioDataPipelines2
 import Foundation
 
 // This file contains mock plugins for testing purposes.

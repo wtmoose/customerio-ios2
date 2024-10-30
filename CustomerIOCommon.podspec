@@ -20,5 +20,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Sources/Common/**/*"
   spec.exclude_files = "Sources/**/*{.md}"
 
-  spec.module_name = "CioInternalCommon" # the `import X` name when using SDK in Swift files
+  spec.module_name = "CioInternalCommon2" # the `import X` name when using SDK in Swift files
 end

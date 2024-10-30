@@ -1,4 +1,4 @@
-import CioDataPipelines
+import CioDataPipelines2
 import CioMessagingInApp
 import CioMessagingPushFCM
 import FirebaseCore

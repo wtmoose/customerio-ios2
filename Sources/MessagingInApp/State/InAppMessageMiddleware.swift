@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 /// Helper function to create middleware for InAppMessage module

@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 protocol InAppMessageManager: AutoMockable {

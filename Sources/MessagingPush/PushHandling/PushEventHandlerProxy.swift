@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 // Forwards requests from our SDK to other push event handlers in the host iOS app, if our SDK does not handle the push event.

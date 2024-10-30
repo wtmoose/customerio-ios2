@@ -1,5 +1,5 @@
 import CioAnalytics
-import CioInternalCommon
+import CioInternalCommon2
 
 /// Logger plugin for logging all requests sent to analytics
 class ConsoleLogger: Plugin {

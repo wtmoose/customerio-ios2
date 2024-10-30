@@ -1,5 +1,5 @@
-@testable import CioDataPipelines
-@testable import CioInternalCommon
+@testable import CioDataPipelines2
+@testable import CioInternalCommon2
 import Foundation
 @testable import SharedTests
 import XCTest

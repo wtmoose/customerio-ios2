@@ -2,7 +2,7 @@
 // DO NOT EDIT
 // swiftlint:disable all
 
-import CioMessagingPushAPN
+import CioMessagingPushAPN2
 import Foundation
 
 /**

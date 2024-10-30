@@ -1,6 +1,6 @@
 import CioAnalytics
-import CioInternalCommon
-import CioTrackingMigration
+import CioInternalCommon2
+import CioTrackingMigration2
 
 public protocol DataPipelineInstance: CustomerIOInstance, DataPipelineMigrationAction {
     var analytics: Analytics { get }
@@ -15,8 +15,8 @@ public class DataPipeline: ModuleTopLevelObject<DataPipelineInstance>, DataPipel
         implementation?.analytics ?? Analytics(configuration: Configuration(writeKey: "DEADINSTANCE"))
     }
 
-    @CioInternalCommon.Atomic public private(set) static var shared = DataPipeline()
-    @CioInternalCommon.Atomic public private(set) static var moduleConfig: DataPipelineConfigOptions!
+    @CioInternalCommon2.Atomic public private(set) static var shared = DataPipeline()
+    @CioInternalCommon2.Atomic public private(set) static var moduleConfig: DataPipelineConfigOptions!
 
     private static let moduleName = "DataPipeline"
 

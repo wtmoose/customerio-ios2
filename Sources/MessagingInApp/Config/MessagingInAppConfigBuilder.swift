@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 /// Builder class designed to facilitate the creation of `MessagingInAppConfigOptions`.

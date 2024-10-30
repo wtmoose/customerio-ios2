@@ -2,8 +2,8 @@
 // DO NOT EDIT
 // swiftlint:disable all
 
-import CioInternalCommon
-import CioMessagingPush
+import CioInternalCommon2
+import CioMessagingPush2
 import Foundation
 
 /**

@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.resource_bundle = {
     "#{spec.module_name}_Privacy" => "#{path_to_source_for_module}/Resources/PrivacyInfo.xcprivacy"
   }
-  spec.module_name = "CioDataPipelines" # the `import X` name when using SDK in Swift files
+  spec.module_name = "CioDataPipelines2" # the `import X` name when using SDK in Swift files
   
   spec.dependency "CustomerIOCommon", "= #{spec.version.to_s}"
   spec.dependency "CustomerIOTrackingMigration", "= #{spec.version.to_s}"

@@ -1,4 +1,4 @@
-import CioMessagingPushAPN
+import CioMessagingPushAPN2
 import UserNotifications
 
 class NotificationService: UNNotificationServiceExtension {

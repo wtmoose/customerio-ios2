@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
     "#{spec.module_name}_Privacy" => "#{path_to_source_for_module}/Resources/PrivacyInfo.xcprivacy"
   }
 
-  spec.module_name = "CioMessagingPushAPN" # the `import X` name when using SDK in Swift files
+  spec.module_name = "CioMessagingPushAPN2" # the `import X` name when using SDK in Swift files
   
   spec.dependency "CustomerIOMessagingPush", "= #{spec.version.to_s}"
 end

@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 // A protocol that can handle push notification events. Such as when a push is received on the device or when a push is clicked on.

@@ -1,5 +1,5 @@
 @testable import CioInternalCommon
-@testable import CioMessagingPush
+@testable import CioMessagingPush2
 import Foundation
 
 public struct PushNotificationStub: PushNotification {
@@ -8,7 +8,7 @@ public struct PushNotificationStub: PushNotification {
     public var title: String
     public var body: String
     public var data: [AnyHashable: Any]
-    public var attachments: [CioMessagingPush.PushAttachment] = []
+    public var attachments: [CioMessagingPush2.PushAttachment] = []
 
     public static func getPushSentFromCIO(title: String = .random, body: String = .random, deliveryId: String = .random, deviceToken: String = .random, deepLink: String? = nil, imageUrl: String? = nil) -> PushNotificationStub {
         let pushId: String = .random // When CIO sends a push via APN or FCM, a push id will be randomly generated. So, we also randomly generate it in our test push notifications, too.

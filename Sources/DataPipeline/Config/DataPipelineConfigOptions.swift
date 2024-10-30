@@ -1,5 +1,5 @@
 import CioAnalytics
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 /// Defines configuration options for the Customer.io Data Pipeline module.

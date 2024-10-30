@@ -1,6 +1,6 @@
 import UIKit
 
-import CioDataPipelines
+import CioDataPipelines2
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(

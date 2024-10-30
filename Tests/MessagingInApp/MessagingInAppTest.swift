@@ -1,5 +1,5 @@
-@testable import CioInternalCommon
-@testable import CioMessagingInApp
+@testable import CioInternalCommon22
+@testable import CioMessagingInApp2
 import Foundation
 import SharedTests
 import XCTest

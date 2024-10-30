@@ -1,0 +1,3 @@
+[submodule "Submodules/CDPAnalytics"]
+	path = Submodules/CDPAnalytics
+	url = https://wtmoose@github.com/wtmoose/cdp-analytics-swift.git

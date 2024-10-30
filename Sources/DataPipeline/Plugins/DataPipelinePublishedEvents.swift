@@ -1,5 +1,5 @@
 import CioAnalytics
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 /// This class serves as a centralized hub for dispatching events generated from DataPipeline module.

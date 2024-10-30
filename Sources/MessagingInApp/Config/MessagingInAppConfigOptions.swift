@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 
 /// Defines configuration options for the Customer.io In-App Messaging module.
 ///

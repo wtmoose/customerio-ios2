@@ -1,4 +1,4 @@
-@testable import CioInternalCommon
+@testable import CioInternalCommon2
 import Foundation
 
 public extension HttpRequestError {

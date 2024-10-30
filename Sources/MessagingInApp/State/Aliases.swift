@@ -1,4 +1,4 @@
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 // This file contains typealias for InAppMessage module which are used to decouple the module from ReSwift library

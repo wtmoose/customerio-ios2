@@ -1,5 +1,5 @@
 import CioAnalytics
-import CioInternalCommon
+import CioInternalCommon2
 
 class DataPipelineImplementation: DataPipelineInstance {
     private let moduleConfig: DataPipelineConfigOptions
@@ -87,7 +87,7 @@ class DataPipelineImplementation: DataPipelineInstance {
 
     var siteId: String?
 
-    var config: CioInternalCommon.SdkConfig?
+    var config: CioInternalCommon2.SdkConfig?
 
     func identify(userId: String, traits: [String: Any]?) {
         commonIdentifyProfile(userId: userId, attributesDict: traits)

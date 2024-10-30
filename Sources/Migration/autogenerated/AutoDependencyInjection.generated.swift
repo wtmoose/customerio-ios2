@@ -2,7 +2,7 @@
 // DO NOT EDIT
 // swiftlint:disable all
 
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 
 /**

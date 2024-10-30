@@ -1,5 +1,5 @@
 import CioAnalytics
-import CioInternalCommon
+import CioInternalCommon2
 import Foundation
 #if canImport(UIKit)
 import UIKit

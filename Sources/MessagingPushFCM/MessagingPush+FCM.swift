@@ -1,4 +1,4 @@
-import CioMessagingPush
+import CioMessagingPush2
 import Foundation
 #if canImport(UserNotifications)
 import UserNotifications
