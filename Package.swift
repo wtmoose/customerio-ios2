@@ -46,7 +46,7 @@ let package = Package(
         
 
         // Make sure the version number is same for DataPipelines cocoapods.
-        .package(name: "CioAnalytics2", path: "Submodules/CDPAnalytics"),
+        .package(name: "CioAnalytics2", path: "Submodules/cdp-analytics-swift2"),
     ],
     targets: [ 
         // Common - Code used by multiple modules in the SDK project.
