@@ -92,7 +92,7 @@ public class UserDefaultsSharedKeyValueStorage: SharedKeyValueStorage {
             appUniqueIdentifier = ".\(appBundleId)"
         }
 
-        return "io.customer.sdk\(appUniqueIdentifier).shared"
+        return "io.customer.sdk\(appUniqueIdentifier).shared2"
     }
 
     public func integer(_ key: KeyValueStorageKey) -> Int? {
