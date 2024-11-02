@@ -55,7 +55,7 @@ public class UserDefaultsSandboxedSiteIdKVStore: SandboxedSiteIdKeyValueStorage 
             appUniqueIdentifier = ".\(appBundleId)"
         }
 
-        return "io.customer.sdk\(appUniqueIdentifier).\(siteId)"
+        return "io.customer.sdk\(appUniqueIdentifier).\(siteId).2"
     }
 
     public func string(_ key: KeyValueStorageKey, siteId: String) -> String? {
